@@ -7,6 +7,5 @@ urlpatterns = [
     path('', views.index, name='index'),
 ]
 
-# Add media URL patterns in development
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Add media URL patterns in all environments
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

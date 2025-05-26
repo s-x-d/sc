@@ -13,6 +13,8 @@ rxh-key
 rxh-key.pub
 README.md
 
+*.pem
+
 aws/.env
 old_settings/
 node_modules

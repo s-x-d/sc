@@ -7,7 +7,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 from dotenv import load_dotenv
 
-load_dotenv() # Load environment variables from .env file
+# Check if .env file exists before loading it
+env_file = BASE_DIR / '.env'
+if env_file.exists():
+    load_dotenv(env_file) # Load environment variables from .env file
 
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
