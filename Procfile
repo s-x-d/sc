@@ -1,1 +1,1 @@
-web: gunicorn aws2.wsgi --log-file -
+web: gunicorn aws4.wsgi --log-file -

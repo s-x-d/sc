@@ -6,6 +6,8 @@ __pycache__/
 *.log
 staticfiles/
 
+_notes.txt
+
 *.csv
 rxh-key
 rxh-key.pub
@@ -21,7 +23,7 @@ node_modules
 *.db
 *.pgdata
 .junie/
-_notes.txt
+
 aws_deployment.md
 aws/settings/local.py
 rootkey.csv
