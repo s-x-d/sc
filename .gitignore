@@ -1,0 +1,35 @@
+.venv/
+.idea/
+__pycache__/
+.env
+*.pyc
+*.log
+staticfiles/
+
+*.csv
+rxh-key
+rxh-key.pub
+README.md
+
+aws/.env
+old_settings/
+node_modules
+# Ignore database files
+*.sqlite3
+*.sql
+*.dump
+*.db
+*.pgdata
+.junie/
+_notes.txt
+aws_deployment.md
+aws/settings/local.py
+rootkey.csv
+
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
