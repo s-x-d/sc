@@ -1,1 +1,1 @@
-web: gunicorn aws4.wsgi --log-file -
+web: gunicorn aws4.wsgi --bind 0.0.0.0:8000 --workers 3 --log-file -
