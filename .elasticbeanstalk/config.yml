@@ -1,0 +1,19 @@
+branch-defaults:
+  main:
+    environment: sc-env
+environment-defaults:
+  sc-env:
+    branch: null
+    repository: null
+global:
+  application_name: sc
+  default_ec2_keyname: sc-key
+  default_platform: Python 3.13 running on 64bit Amazon Linux 2023
+  default_region: eu-west-2
+  include_git_submodules: true
+  instance_profile: aws-elasticbeanstalk-ec2-role
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: git
+  workspace_type: Application
