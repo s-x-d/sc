@@ -31,3 +31,5 @@ aws/settings/local.py
 rootkey.csv
 
 .elasticbeanstalk/app_versions
+.elasticbeanstalk/logs
+
